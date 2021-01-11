@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+  display: inline-flex;
+
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  font-size: .75rem;
+  align-items: left;
+}
