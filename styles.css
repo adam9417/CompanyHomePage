@@ -1,3 +1,5 @@
+
+
 header nav ul {
   padding-left: 3.5rem;
 }
@@ -16,6 +18,9 @@ nav li {
   padding-left: 3.5rem;
 }
 
+h1 {
+  text-align: center;
+}
 footer nav ul {
   padding-left: 3.5rem;
 }
