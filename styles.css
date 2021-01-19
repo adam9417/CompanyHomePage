@@ -1,0 +1,26 @@
+header nav ul {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+footer nav ul {
+  padding-left: 3.5rem;
+}
+
+footer nav ul {
+  display: flex;
+}
+
