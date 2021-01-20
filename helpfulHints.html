@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <img src="images/Brookedale Sign1.jpeg" alt="Brookedale Neighborhood Sign" class="img-fluid">
+      <img src="images/Brookedale Sign1.jpeg" alt="Brookedale Neighborhood Sign" class="img-fluid" id="bannerSign">
       <div class="navbar">
         <nav>
           <ul role="presentation">
@@ -25,9 +25,27 @@
       <h1>Helpful Home Hints</h1>
     </header>
     <div class="main">
-      <h2 class="hints">Air Filters</h2>
-      <p class="hints">Home air filters should be changed regularly to ensure proper removal of dust and allergens in the air. If you have furry friends consider changing filters monthly; quarterly if only humans at home.</p>
-      <img src="images/Replace Filter.jpg" alt="Man replacing air filter" class="hintPics">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/Replace Filter.jpg" alt="Man replacing air filter">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Air Filters</h5>
+              <p class="card-text">Home air filters should be changed regularly to ensure proper removal of dust and allergens in the air. If you have furry friends consider changing filters monthly; quarterly if only humans at home..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--
+      <div class="hintContainer">
+        <h2 class="hints">Air Filters</h2>
+        <img src="images/Replace Filter.jpg" alt="Man replacing air filter" class="col-sm-2"><p class="col-md-6">Home air filters should be changed regularly to ensure proper removal of dust and allergens in the air. If you have furry friends consider changing filters monthly; quarterly if only humans at home.</p>
+      </div>
+-->
       <h2 class="hints">Dryer Vents</h2>
       <p class="hints">Dryer lint can build up over time and can become a fire hazard. Be sure to periodically pull the dryer away from the wall, disconnect the hose from the back of the unit to vacuum the hose and vent.</p>
       <img src="images/Vacuum Dryer Vent.jpg" alt="Vacuuming out dryer vents" class="hintPics">
